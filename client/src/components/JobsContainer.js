@@ -19,9 +19,12 @@ const JobsContainer = () => {
     numOfPages,
   } = useAppContext();
   useEffect(() => {
-    getJobs();
+    const delayForTyping = setTimeout(() => {
+      getJobs();
+    }, 400);
+    return () => clearTimeout(delayForTyping);
     // eslint-disable-next-line
-  }, [page, search, searchStatus, searchType, sort]);
+  }, [search, searchStatus, searchType, sort, page]);
   if (isLoading) {
     return <Loading center />;
   }
