@@ -2,11 +2,7 @@
 
 #### Track Your Job Search
 
-Project in Action - [Jobify](https://www.jobify.live/)
-
-#### Support
-
-Find the App Useful? [You can always buy me a coffee](https://www.buymeacoffee.com/johnsmilga)
+Project in Action - [Jobify](http://www.jobify-xuanbingzhu.com/)
 
 #### Run The App Locally
 
